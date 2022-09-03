@@ -49,7 +49,8 @@ function draw() {
   }
   
   //mude o valor do balão aleatório para 4
-  var select_balloon = Math.round(random(1,4));
+  var select_balloon = Math.round(random(1,1));
+  //o comando acima aparece tela prata ao colocar (1,4) no "random".
   
   if (World.frameCount % 100 == 0) {
    switch(select_balloon){
